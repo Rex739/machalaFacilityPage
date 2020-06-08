@@ -13,7 +13,7 @@
 	<header>
 		<nav class="container">
 			<ul>
-				<li id="sitename">machala</li>
+				<li class="sitename">machala</li>
 				<div class="top-nav">
 					<li><a href="">Rooms</a></li>
 					<li><a href="">About Us</a></li>
@@ -28,9 +28,11 @@
 	<!-- body -->
 	<main class="main">
 		<div class="">FACILITIES</div>
-		<h1 class="header1">See our awesome facilities that makes us stand out</h1>
+		<h1 class="header">See our awesome facilities <br>that makes us stand out</h1>
 		<div class="page-img">
-			<img class="" src="">
+			<!-- postion info on the img -->
+			<div class="info">Over 100 rooms & suites</div>
+			<img class="" src="img/facility_rooms.svg">
 			<!-- use grid to align figcaption and book now  or if u have a better suggestion u can implement-->
 			<div class="">
 				<div class="figcaption">check out our rooms and suite avaliable for booking. with comfortable spaces and facilities, your stay hereis guranteed to be splendid
@@ -39,7 +41,8 @@
 			</div>
 		</div>
 		<div class="page-img">
-			<img class="" src="">
+			<div class="info">Standard theraupetic spa</div>
+			<img class="" src="img/spa.svg">
 			<div class="">
 				<div class="figcaption">
 					A spa is a location where mineral-rich spring water(and sometimes sea water) is used to give medical baths. Come check us out
@@ -48,7 +51,8 @@
 			</div>
 		</div>
 		<div class="page-img">
-			<img class="" src="">
+			<div class="info">Local & Foreign Dishes</div>
+			<img class="" src="img/dishes.svg">
 			<div class="">
 				<div class="figcaption">
 					Enjoy all ranges of foods from local dishes to intercontinental ones.<br>
@@ -58,12 +62,49 @@
 			</div>
 		</div>
 		<div class="book-a-room">
-			<img class="" src="">
+			<img class="" src="img/book-a-room.svg">
 			<div class="book-a-room-info">
 				Do you need a cozy place to rest and chill after Lagos wahala? <br>
 				<div id="button-book-a-room"><a href="">Book a room</a></div>
 			</div>
 		</div>
+		<!-- slide section -->
+		<section class="photos">
+			<div class="">PHOTOS</div>
+			<h1 class="header">More sneak peak into <br>our rooms and restaurant</h1>
+			<div class="slide">
+				<img class="" src="img/photo1.svg">
+				<img class="" src="img/photo2.svg">
+				<img class="" src="img/photo3.svg">
+				<div class="icon"><img src="img/prev.svg"></div>
+				<div class="icon"><img src="img/next.svg"></div>
+			</div>
+		</section>
 	</main>
+	<!-- footer. if you have any difficulties, contact me-->
+	<footer class="">
+		<div class="sitename">machala</div>
+		<div class="navigation">
+			<ul>
+				<li>Navigation</li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Rooms & Suites</a></li>
+				<li><a href="">Contact Page</a></li>
+				<li><a href="">Facilities</a></li>
+				<li><a href="">Special Offers</a></li>
+			</ul>
+		</div>
+		<div class="contact_us">
+			<ul>
+				<li>No 10, Lekki Phase 1<br>Lagos State, Nigeria</li>
+				<li>+234 816 0877 462</li>
+				<li>info@machala.com</li>
+			</ul>
+		</div>
+		<div class="news_letter">
+			Subscribe to our E-Newsletter and<br> get all the latest deals and offers<br>
+			<input type="email" id="email" name="email" placeholder="Your Email Address"><span id="cursor"><img src="img/cursor.svg"></span>
+		</div>
+	</footer>
 </body>
 </html>
