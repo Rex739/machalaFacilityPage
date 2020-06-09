@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +5,9 @@
 
 
 .container {
-    background-image: url(img/nav_img.svg);
+    background-image: url(img/nav_img.svg);}
    
    
-=======
 /*footer*/
 .footer{
 	display: grid;
@@ -42,5 +40,4 @@
 
 #copyright{
 	color: #7D7878;
->>>>>>> 5f25b3bb816e6c233b457c291732f6fa22ba93e5
 }
