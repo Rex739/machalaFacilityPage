@@ -89,6 +89,15 @@ nav .home a {
     width: 100%;
 }
 
+.body {
+	display: flex;
+	padding: 2% 0;
+}
+
+
+
+
+
 
 
 .book-a-room {
