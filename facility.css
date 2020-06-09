@@ -114,6 +114,89 @@ nav .home a {
 	text-decoration: none;
 }
 
+
+
+/*slide*/
+
+/*.carousel {
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.carousel-container {
+  padding: 8px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carol-img {
+  width: 100%;
+  height: 80%;
+}
+
+.carousel-track {
+  list-style: none;
+  position: relative;
+  height: 300px;
+  transition: transform 250ms ease-in;
+  margin-top: 10%;
+}
+
+.slide-link {
+  text-decoration: none;
+  color: #293651;
+  font-size: 1.2rem;
+}
+
+.carousel-slide {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+   height: 500px; 
+  top: 0;
+  bottom: 0;
+}
+
+.carousel-button {
+  position: absolute;
+  top: -8%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  width: 50%;
+}
+
+.carousel-left {
+  left: 3%;
+}
+
+.carousel-right {
+  right: 3%;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 25%;
+}
+
+.hide {
+  display: none;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}*/
+/*slide ends*/
+
+
+
+
+
 /*footer*/
 
 /* .footer {
@@ -126,8 +209,9 @@ nav .home a {
 	color: #7D7878;
 }
 
-.logo{
-	height: 18%;
+.foot-logo{
+	height: 30px;
+	margin-bottom: 30px;
 }
 
 .footer_text {
@@ -154,7 +238,7 @@ nav .home a {
 }
 
 #num{
-	margin-top: 100px;
+	margin-top: 20px;
 }
 
 .news_letter{
@@ -247,3 +331,5 @@ nav .home a {
 hr {
 	margin: 50px 0 50px 0;
 }
+
+/*footer ends*/
