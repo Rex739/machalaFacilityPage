@@ -9,11 +9,10 @@ nav.container {
 	background-image: url(img/nav_cover.svg);
 	background-repeat: no-repeat;
 	background-size: 100% ;
-	height: 100vh;
 }
 
 
-#pagename, .home, ul, footer {
+#pagename, .home, ul, main, footer {
 	margin: auto;
 	max-width: 79%;
 }
@@ -75,10 +74,22 @@ nav .home a {
 
 
 
+/*main*/
 
 /* .main {
 	padding: 0 168px;
 } */
+
+.main .home {
+	margin-top : 5%;
+}
+
+
+.shrink {
+    width: 100%;
+}
+
+
 
 .book-a-room {
 	display: grid;
