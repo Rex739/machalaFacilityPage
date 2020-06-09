@@ -1,16 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*navbar*/
+
+.container {
+	width: 100%;
+	background-image: url(img/nav_cover.svg);
+	background-size: 100%;
+	min-height: 100%;
+	background-repeat: no-repeat;
+}
+
+ul {
+	margin: auto;
+	max-width: 79%;
+}
 
 
-.main{
+li {
+	list-style-type: none;
+	display: inline;		
+}
+
+li .logo {
+	margin-top: 6%;
+	padding-right: 25%;
+}
+
+.top-nav {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+.main {
 	padding: 0 168px;
 }
 
-.book-a-room{
+.book-a-room {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 0;
 }
 
-.book-a-room-info{
+.book-a-room-info {
 	align-items: center;
 	font: 2.125rem/147.19% roboto;
 	font-weight: normal;
@@ -19,7 +62,7 @@
 	padding: 15% 11%;
 }
 
-#button-book-a-room{
+#button-book-a-room {
 	font-size: 1.5rem;
 	text-align: center;
 	color: #F3684A;
@@ -30,61 +73,45 @@
 	margin-top: 20px;
 	width: 65%;
 	padding: 2%;
-	
-
 }
 
-#button-book-a-room a{
+#button-book-a-room a {
 	color: #F3684A;
 	text-decoration: none;
 }
 
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-.container {
-    background-image: url(img/nav_cover.svg);}
-   
-   
-
 /*footer*/
-.footer{
+
+.footer {
 	padding: 0 168px;
 }
 
-.footer_container{
+.footer_container {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr 2fr;
 	color: #7D7878;
-
 }
 
-.footer_text{
-	 font: 0.875rem/180% roboto;
+.footer_text {
+	font: 0.875rem/180% roboto;
 }
 
-.navigation ul{
+.navigation ul {
 	list-style: none;
 	font: 0.875rem/220% roboto;
 }
 
-.contact_us ul{
+.contact_us ul {
 	list-style: none;
 	font: 0.875rem/220% roboto;
 }
 
-.news_letter ul{
+.news_letter ul {
 	list-style: none;
 	font: 0.875rem/220% roboto;
 }
 
-#email{
+#email {
 	background: #F8F8F8;
 	border: 0.5px solid #E4E4E4;
 	box-sizing: border-box;
@@ -94,58 +121,57 @@
 	padding: 12px;
 }
 
-.email{
+.email {
 	display: flex;
 }
 
-#cursor{
+#cursor {
 	display: flex;
 	align-items: center;
 	background: #F3684A;
 	border-radius: 0px 5px 5px 0px;
-	padding: 2%;	
+	padding: 2%;
 }
 
-.navigation a{
+.navigation a {
 	text-decoration: none;
 	color: #7D7878;
 }
 
-#copyright{
+#copyright {
 	color: #7D7878;
-
 }
 
 .fa-facebook {
-  background: #3B5998 ;
-  color: white;
- }
+	background: #3B5998;
+	color: white;
+}
 
- .fa-twitter {
-  background: #55ACEE;
-  color: white;
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
 }
 
 .fa-youtube {
-  background: #FF0000;
-  color: white;
+	background: #FF0000;
+	color: white;
 }
 
-.fab{
-  padding: 5px;
-  font-size: 30px;
-  width: 35px;
-  text-align: center; 
-  text-decoration: none;
-  border-radius: 50%;
+.fab {
+	padding: 5px;
+	font-size: 30px;
+	width: 35px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
 }
 
-#copyright{
+#copyright {
 	padding: 5%;
 	text-align: center;
 	font-size: 13px;
 }
 
-hr{
+hr {
 	margin: 50px 0 50px 0;
 }
