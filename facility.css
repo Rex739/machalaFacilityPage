@@ -5,47 +5,80 @@
 
 /*navbar*/
 
-.container {
-	width: 100%;
+nav.container {
 	background-image: url(img/nav_cover.svg);
-	background-size: 100%;
-	min-height: 100%;
 	background-repeat: no-repeat;
+	background-size: 100% ;
+	height: 100vh;
 }
 
-ul {
+
+#pagename, .home, ul, footer {
 	margin: auto;
 	max-width: 79%;
 }
 
+nav ul {
 
-li {
+	margin-bottom: 5%;
+}
+
+
+nav li {
 	list-style-type: none;
 	display: inline;		
 }
 
 li .logo {
 	margin-top: 6%;
-	padding-right: 25%;
+	padding-right: 30%;
+	display: inline-block;
 }
 
 .top-nav {
 	display: inline;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: #fff;
 }
 
-
-
-
-
-
-.main {
-	padding: 0 168px;
+.top-nav li {
+	font-family: Roboto;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 101.19%;
+    /* or 24px */
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    padding-left: 3%;
 }
+
+
+nav #pagename {
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 130.19%;
+    /* or 62px */
+	color: #FFFFFF;
+	padding-bottom: 2%;
+}
+
+
+nav .home a {
+	color: #F3684A;
+	font-size: 1.3rem;
+}
+
+
+
+
+/* .main {
+	padding: 0 168px;
+} */
 
 .book-a-room {
 	display: grid;
@@ -82,9 +115,9 @@ a {
 
 /*footer*/
 
-.footer {
+/* .footer {
 	padding: 0 168px;
-}
+} */
 
 .footer_container {
 	display: grid;
