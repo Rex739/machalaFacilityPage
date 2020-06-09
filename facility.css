@@ -1,1 +1,33 @@
-/*css*/
+/*footer*/
+.footer{
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+}
+
+.footer_container{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 2fr;
+	color: #7D7878;
+
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.contact_us ul{
+	list-style: none;
+}
+
+.news_letter ul{
+	list-style: none;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #7D7878;
+}
+
+#copyright{
+	color: #7D7878;
+}
