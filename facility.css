@@ -9,7 +9,7 @@
 nav.container {
 	background-image: url(img/nav_cover.svg);
 	
-	background-size: 100% ;
+	background-size: cover;
 }
 
 
@@ -105,8 +105,11 @@ nav .home {
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 678775890d95a149a103128466bce3f964cb4292
 .body {
 	display: flex;
 	justify-content: space-between;
