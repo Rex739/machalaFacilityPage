@@ -8,7 +8,7 @@
 
 nav.container {
 	background-image: url(img/nav_cover.svg);
-	background-repeat: no-repeat;
+	
 	background-size: 100% ;
 }
 
@@ -21,22 +21,28 @@ nav.container {
 nav ul {
 
 	margin-bottom: 5%;
+	padding-top: 4%;
+	display: flex;
+	justify-content: space-between;
+	
 }
+
 
 
 nav li {
 	list-style-type: none;
-	display: inline;		
+	display: inline;
+			
 }
 
 li .logo {
 	margin-top: 6%;
-	padding-right: 30%;
 	display: inline-block;
 }
 
 .top-nav {
 	display: inline;
+	padding-top: 2.5%;
 }
 
 nav a {
@@ -50,8 +56,9 @@ nav a {
     font-size: 1.5rem;
     line-height: 101.19%;
     letter-spacing: 0.055em;
-    color: #FFFFFF;
-    padding-left: 3%;
+	color: #FFFFFF;
+	padding-top: 5px;
+    padding-right: 20px;
 }
 
 
@@ -69,6 +76,11 @@ nav #pagename {
 nav .home a {
 	color: #F3684A;
 	font-size: 1.3rem;
+	
+}
+
+nav .home {
+	padding-bottom: 2%;
 }
 
 
@@ -79,12 +91,71 @@ nav .home a {
 	margin-top : 5%;
 }
 
+.homes {
+	margin-top: 5%
+}
+
+.main .header {
+	margin-top: 1%
+}
+
 
 .shrink {
     width: 100%;
 }
 
+<<<<<<< HEAD
 /* variables */
+=======
+.body {
+	display: flex;
+	justify-content: space-between;
+	margin: 1% 0;
+}
+
+.body .booknow {
+	background-color: #F3684A;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 1% 4%;
+}
+
+.figcaption {
+	display: flex;
+	align-items: center;
+	
+}
+
+.booknow > a {
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+
+#main-info {
+	position: relative;
+	margin-top: 4%;
+}
+
+#main-infos {
+    z-index: 1;
+    width: 42%;
+    height: 18%;
+    opacity: 0.92;
+    position: absolute;
+    background: #F3684A;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+}
+
+
+
 
 :root {
   --pink-bg: #fbf5f5;
