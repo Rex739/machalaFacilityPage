@@ -12,37 +12,46 @@
 </head>
 <body>
 	<!-- navigation bar -->
-	<header>
-		<nav class="container">
-			<ul>
-				<li><img class="logo" src="img/nav-logo.svg"></li>
-				<button class="hamburger" id="bar">
-          		<i class="fas fa-bars"></i>
-        		</button>
-        		<button class="hamclose" id="hamclose">
-          		<i class="fas fa-times"></i>
-       			</button>
-				<div class="top-nav hide" id="inner-nav">
-					<li><a href="">Rooms</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">Facilities</a></li>
-					<li><a href="">Contact us</a></li>
-				</div>
-			</ul>
-			<div id="pagename">Facilities</div>
-			<div class="home"><a href="">HOME / FACILITIES </a></div>
-		</nav>
+	<header class="container">
+		<nav id="nav-bar">
+        <img src="img/nav-logo.svg" alt="" class="nav-logo">
+        <button class="hamburger" id="bar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button class="hamclose" id="hamclose">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="navlist hide" id="inner-nav">
+          <ul>
+            <li id="rooms"><a href="#room">Rooms</a></li>
+
+            <li id="about"><a href="#about">About us</a></li>
+
+            <li id="facilities"><a href="#facility">Facilities</a></li>
+            <li id="contact">
+              <a href="./Contact-page/contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <div id ="title">
+      	<div id="page-name"><b>Facilities</b></div>
+      	<span class="home"><a href="#">HOME </a>/ FACILITIES</span>
+      </div>
+
 	</header>
 	<!-- body -->
 	<main class="main">
 		<div class="homes">FACILITIES</div>
-		<h1 class="header">See our awesome facilities <br>that makes us stand out</h1>
+		<h1 class="header">See our awesome facilities that makes us stand out</h1>
 		<div id ="main-info" class="page-img">
 			<!-- postion info on the img -->
 			<div id ="main-infos" class="info">Over 100 rooms & suites</div>
 			<img class="shrink" src="img/facility_rooms.svg">
 			<div class="body">
-				<div class="figcaption">Check out our rooms and suite avaliable for booking. with comfortable spaces and facilities, your stay hereis guranteed to be splendid
+				<div class="figcaption">Check out our rooms and suite avaliable for booking. with comfortable spaces and facilities, your stay here is <br>guranteed to be splendid
 				</div>
 				<div class="booknow"><a href ="">Book Now</a></div>
 			</div>
@@ -52,7 +61,7 @@
 			<img class="shrink" src="img/spa.svg">
 			<div class="body">
 				<div class="figcaption">
-					A spa is a location where mineral-rich spring water(and sometimes sea water) is used to give medical baths. Come check us out
+					A spa is a location where mineral-rich spring water(and sometimes sea water) is used <br>to give medical baths. Come check us out
 				</div>
 				<div class="booknow"><a href ="">Book Now</a></div>
 			</div>
@@ -62,13 +71,13 @@
 			<img class="shrink" src="img/dishes.svg">
 			<div class="body">
 				<div class="figcaption">
-					Enjoy all ranges of foods from local dishes to intercontinental ones.<br>
-					We provide all kinds of drinks too in our bar
+					Enjoy all ranges of foods from local dishes to intercontinental ones.
+					We provide<br> all kinds of drinks too in our bar
 				</div>
 				<div class="booknow"><a href="">Book Now</a></div>
 			</div>
 		</div>
-		<!-- book room . -->
+		<!-- book room  -->
 	</main>
 		<div class="book-room">
       		<img src="img/book-a-room.jpg" alt="" class="book-room__img" />
