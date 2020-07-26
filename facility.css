@@ -28,7 +28,7 @@ body {
 
 .container {
   background-image: url(https://res.cloudinary.com/dhypceiuh/image/upload/v1591997594/img/nav_cover_tqysuf.svg);
-  height: 30vh;
+  height: 100%
   color: white;
   padding: 1px;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ body {
   }
 
   .container {
-    height: 40vh;
+    height: 100%;
     padding: 0 1em;
 
   }
