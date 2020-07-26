@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="machala facility page">
-	<meta name="keyword" content="HTML, CSS, JAVASCRIPT">
-	<meta name="author" content="Rex, Kunle">
-	<meta name="viewport" content="width=device-width, initial-scale =1.0">
-	<title>Facility</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="facility.css">
+  <meta charset="utf-8">
+  <meta name="description" content="machala facility page">
+  <meta name="keyword" content="HTML, CSS, JAVASCRIPT">
+  <meta name="author" content="Rex, Kunle">
+  <meta name="viewport" content="width=device-width, initial-scale =1.0">
+  <title>Facility</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="img/machala.ico">
+  <link rel="stylesheet" type="text/css" href="facility.css">
 </head>
 <body>
-	<!-- navigation bar -->
-	<header class="container">
-		<nav id="nav-bar">
-        <img src="img/nav-logo.svg" alt="" class="nav-logo">
+  <!-- navigation bar -->
+  <header class="container">
+    <div class="main-head">
+      <nav id="nav-bar">
+        <img src="./img/nav-logo.svg" alt="" class="nav-logo">
         <button class="hamburger" id="bar">
           <i class="fas fa-bars"></i>
         </button>
@@ -23,105 +25,106 @@
         </button>
         
         <div class="navlist hide" id="inner-nav">
-          <ul>
-            <li id="rooms"><a href="#room">Rooms</a></li>
-
-            <li id="about"><a href="#about">About us</a></li>
-
-            <li id="facilities"><a href="#facility">Facilities</a></li>
-            <li id="contact">
-              <a href="./Contact-page/contact.html">Contact us</a>
-            </li>
-          </ul>
+          <a class="nav-item" href="https://netacci.github.io/Machala_hotel/Rooms-page/room.html">Rooms</a>
+          <a class="nav-item" href="https://netacci.github.io/Machala_hotel/index.html"
+            >About Us</a
+          >
+          <a class="nav-item" href="#facility">Facilities</a>
+          <a class="nav-item" href="https://netacci.github.io/Machala_hotel/Contact-page/contact.html"
+            >Contact Us</a
+          >
         </div>
 
       </nav>
+    </div>
+  
+      
       <div id ="title">
-      	<div id="page-name"><b>Facilities</b></div>
-      	<span class="home"><a href="#">HOME </a>/ FACILITIES</span>
+        <h2>Facilities</h2>
+        <p>HOME / FACILITIES</p>
       </div>
 
-	</header>
-	<!-- body -->
-	<main class="main">
-		<div class="homes">FACILITIES</div>
-		<h1 class="header">See our awesome facilities that makes us stand out</h1>
-		<div id ="main-info" class="page-img">
-			<!-- postion info on the img -->
-			<div id ="main-infos" class="info">Over 100 rooms & suites</div>
-			<img class="shrink" src="img/facility_rooms.svg">
-			<div class="body">
-				<div class="figcaption">Check out our rooms and suite avaliable for booking. with comfortable spaces and facilities, your stay here is <br>guranteed to be splendid
-				</div>
-				<div class="booknow"><a href ="">Book Now</a></div>
-			</div>
-		</div>
-		<div id ="main-info" class="page-img">
-			<div id ="main-infos"  class="info">Standard theraupetic spa</div>
-			<img class="shrink" src="img/spa.svg">
-			<div class="body">
-				<div class="figcaption">
-					A spa is a location where mineral-rich spring water(and sometimes sea water) is used <br>to give medical baths. Come check us out
-				</div>
-				<div class="booknow"><a href ="">Book Now</a></div>
-			</div>
-		</div>
-		<div id ="main-info" class="page-img">
-			<div id ="main-infos" class="info">Local & Foreign Dishes</div>
-			<img class="shrink" src="img/dishes.svg">
-			<div class="body">
-				<div class="figcaption">
-					Enjoy all ranges of foods from local dishes to intercontinental ones.
-					We provide<br> all kinds of drinks too in our bar
-				</div>
-				<div class="booknow"><a href="">Book Now</a></div>
-			</div>
-		</div>
-		<!-- book room  -->
-	</main>
-		<div class="book-room">
-      		<img src="img/book-a-room.jpg" alt="" class="book-room__img" />
-      		<div class="book">
-        		<h2 class="book-text">
-         	 	Do you need a cozy place to rest & chill after work and Lagos wahala??
-        		</h2>
-        		<button class="btn book-btn">Book a room</button>
-      		</div>
-   		</div>
-		<!-- slide section -->
-		<div class="photos">
-        	<p class="photo-title">PHOTOS</p>
-        	<p class="photo-text">More sneak peak into our rooms and restaurant</p>
-      	</div>
-      	<div class="carousel">
-        	<button class="carousel-button carousel-left hide">
-          		<img src="img/prev.svg" alt="" class="left-arrow">
-       		</button>
-       		<div class="carousel-container">
-	        	<ul class="carousel-track">
-	            	<li class="carousel-slide current-slide">
-	              		<img class="carol-img" src="img/photo1.jpg" alt="">
-	            	</li>
-	            	<li class="carousel-slide">
-	              		<img class="carol-img" src="img/photo2.jpg" alt="">
-	            	</li>
-	            	<li class="carousel-slide">
-	              		<img class="carol-img" src="img/photo3.jpg" alt="">
-	            	</li>
-	            	<li class="carousel-slide">
-	              		<img class="carol-img" src="img/photo4.jpg" alt="">
-	            	</li>
-	            </ul>
-        	</div>
-        	<button class="carousel-button carousel-right">
-        	  <img src="img/next.svg" alt="" class="right-arrow">
-        	</button>
+  </header>
+  <!-- body -->
+  <main class="main">
+    <p class="homes">FACILITIES</p>
+    <p class="header">See our awesome facilities that makes us stand out</P>
+    <div id ="main-info" class="page-img">
+      <!-- postion info on the img -->
+      <div id ="main-infos" class="info">Over 100 rooms & suites</div>
+      <img class="shrink" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591997804/img/facility_rooms_qpjvoo.svg">
+      <div class="body">
+        <p class="figcaption">Check out our rooms and suite avaliable for booking. with comfortable spaces and facilities, your stay here is guranteed to be splendid
+        </p>
+        <a href="" class="booknow"><button class="btn booknow-btn">Book Now</button></a>
       </div>
-	
-	<!-- footer-->
-	<footer class="foot">
+    </div>
+    <div id ="main-info" class="page-img">
+      <div id ="main-infos"  class="info">Standard theraupetic spa</div>
+      <img class="shrink" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591997904/img/spa_pskdls.svg">
+      <div class="body">
+        <p class="figcaption">
+          A spa is a location where mineral-rich spring water(and sometimes sea water) is used to give medical baths. Come check us out
+        </p>
+        <a href="" class="booknow"><button class="btn booknow-btn">Book Now</button></a>
+      </div>
+    </div>
+    <div id ="main-info" class="page-img">
+      <div id ="main-infos" class="info">Local & Foreign Dishes</div>
+      <img class="shrink" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591998060/img/dishes_dx40ry.svg">
+      <div class="body">
+        <p class="figcaption">
+          Enjoy all ranges of foods from local dishes to intercontinental ones.
+          We provide all kinds of drinks too in our bar
+        </p>
+        <a href="" class="booknow"><button class="btn booknow-btn">Book Now</button></a>
+      </div>
+    </div>
+    <!-- book room  -->
+  </main>
+    <div class="book-room">
+          <img src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591737213/img/book-img_bkwyrb.jpg" alt="" class="book-room__img" />
+          <div class="book">
+            <h2 class="book-text">
+            Do you need a cozy place to rest & chill after work and Lagos wahala??
+            </h2>
+            <button class="btn book-btn">Book a room</button>
+          </div>
+      </div>
+    <!-- slide section -->
+    <div class="photos">
+          <p class="photo-title">PHOTOS</p>
+          <p class="photo-text">More sneak peak into our rooms and restaurant</p>
+        </div>
+        <div class="carousel">
+          <button class="carousel-button carousel-left hide">
+              <img src="./img/prev.svg" alt="" class="left-arrow">
+          </button>
+          <div class="carousel-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide current-slide">
+                    <img class="carol-img" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591737184/img/carousel-img1_fkg40z.jpg" alt="">
+                </li>
+                <li class="carousel-slide">
+                    <img class="carol-img" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591793150/img/carousel-img2_hxl344.jpg" alt="">
+                </li>
+                <li class="carousel-slide">
+                    <img class="carol-img" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591737145/img/carousel-img3_iuzsfs.jpg" alt="">
+                </li>
+                <li class="carousel-slide">
+                    <img class="carol-img" src="https://res.cloudinary.com/dhypceiuh/image/upload/v1591793156/img/carousel-img4_h1wgba.jpg" alt="">
+                </li>
+              </ul>
+          </div>
+          <button class="carousel-button carousel-right">
+            <img src="./img/next.svg" alt="" class="right-arrow">
+          </button>
+      </div>
+  
+  <!-- footer-->
+  <footer class="foot">
         <div class="foot-logo">
-          <img src="img/logo.svg" alt="" class="foot-logo_img" />
+          <img src="./img/logo.svg" alt="" class="foot-logo_img" />
           <p class="foot-text">
             Enjoy luxury and experience world class hospitality with highest
             standards in hotel services. Machala royal hotel is truely home away
@@ -136,9 +139,9 @@
         <div class="navigation">
           <p class="navigation-title">Navigation</p>
           <div class="navigation-links">
-            <a href="#about" class="navigation-text">About Us</a>
-            <a href="#rooms" class="navigation-text">Rooms & Suites</a>
-            <a href="#contact" class="navigation-text">Contact Page</a>
+            <a href="https://netacci.github.io/Machala_hotel/index.html" class="navigation-text">About Us</a>
+            <a href="https://netacci.github.io/Machala_hotel/Rooms-page/room.html" class="navigation-text">Rooms & Suites</a>
+            <a href="https://netacci.github.io/Machala_hotel/Contact-page/contact.html" class="navigation-text">Contact Page</a>
             <a href="#facilities" class="navigation-text">Facilities</a>
             <a href="" class="navigation-text">Special Offers</a>
           </div>
@@ -167,7 +170,7 @@
                 placeholder="Your Email Address"
               />
               <button class="send-icon-btn">
-                <img src="img/cursor.svg" alt="" class="send-img" />
+                <img src="./img/cursor.svg" alt="" class="send-img" />
               </button>
             </div>
           </div>
@@ -182,8 +185,8 @@
           </p>
         </div>
       </footer>
-	<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="slide.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="slide.js"></script>
 </body>
 </html>
